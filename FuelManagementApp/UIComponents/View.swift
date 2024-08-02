@@ -8,7 +8,7 @@
 import UIKit
 
 class View: UIView {
-    init(backgroundColor: UIColor = .systemGray2, cornerRadius: CGFloat = 22) {
+    init(backgroundColor: UIColor = .systemGray4, cornerRadius: CGFloat = 22) {
         super.init(frame: .zero)
         self.translatesAutoresizingMaskIntoConstraints = false
         self.backgroundColor = backgroundColor

@@ -11,6 +11,7 @@ import CoreData
 class WelcomeViewController: UIViewController {
 
     private let backgroundView = ImageView()
+    private let appLogo = ImageView(imageName: "fill")
     private let screenTitle = Label(text: "Fuel Management",textFont: .bold(ofSize: 40))
     private let pumpImage = ImageView(imageName: "pump")
     private let welcomeText = Label(text: "Welcome to find expense calculate total of your expenditure",textColor: .white, textFont: .medium(ofSize: 25))
@@ -24,6 +25,7 @@ class WelcomeViewController: UIViewController {
     
     private func setUpViews() {
         view.addSubview(backgroundView)
+        view.addSubview(appLogo)
         view.addSubview(screenTitle)
         view.addSubview(pumpImage)
         view.addSubview(welcomeText)
@@ -34,6 +36,11 @@ class WelcomeViewController: UIViewController {
             backgroundView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
             backgroundView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             backgroundView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            
+            appLogo.widthAnchor.constraint(equalToConstant: 250),
+            appLogo.heightAnchor.constraint(equalToConstant: 100),
+            appLogo.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            appLogo.centerYAnchor.constraint(equalTo: view.centerYAnchor),
             
             screenTitle.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
             screenTitle.centerXAnchor.constraint(equalTo: view.centerXAnchor),
