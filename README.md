@@ -1,0 +1,1 @@
+The App that reduces complexity of finding transportation expense and monthly total of your fuel expense. This App Allow new user to create Authenticate Account and login after credentials Matched. Moreover if a user using iDevice equal to iPhone X or Above than user can login with there Face ID.
