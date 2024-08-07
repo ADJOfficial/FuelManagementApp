@@ -2,7 +2,7 @@
 //  Vehicle+CoreDataProperties.swift
 //  FuelManagementApp
 //
-//  Created by Arsalan Daud on 06/08/2024.
+//  Created by Arsalan Daud on 07/08/2024.
 //
 //
 
@@ -21,6 +21,7 @@ extension Vehicle {
     @NSManaged public var vehicleModel: String?
     @NSManaged public var vehicleYear: String?
     @NSManaged public var vehicleFuelType: String?
+    @NSManaged public var vehicleImage: Data?
 
 }
 
