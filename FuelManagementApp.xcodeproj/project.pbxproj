@@ -7,53 +7,114 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F3B7CF92C6F134F00C6F2E5 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3B7CF82C6F134F00C6F2E5 /* GradientView.swift */; };
 		0F703D092C5B52D600C87D99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F703D082C5B52D600C87D99 /* AppDelegate.swift */; };
 		0F703D0B2C5B52D600C87D99 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F703D0A2C5B52D600C87D99 /* SceneDelegate.swift */; };
-		0F703D0D2C5B52D600C87D99 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F703D0C2C5B52D600C87D99 /* WelcomeViewController.swift */; };
-		0F703D102C5B52D600C87D99 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0F703D0F2C5B52D600C87D99 /* Base */; };
 		0F703D132C5B52D600C87D99 /* FuelManagementApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F703D112C5B52D600C87D99 /* FuelManagementApp.xcdatamodeld */; };
 		0F703D152C5B52D900C87D99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F703D142C5B52D900C87D99 /* Assets.xcassets */; };
-		0F703D182C5B52D900C87D99 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0F703D172C5B52D900C87D99 /* Base */; };
 		0F703D252C5B54A900C87D99 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F703D242C5B54A900C87D99 /* LoginViewController.swift */; };
 		0F703D272C5B54C700C87D99 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F703D262C5B54C700C87D99 /* SignupViewController.swift */; };
-		0F703D292C5B54E300C87D99 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F703D282C5B54E300C87D99 /* ImageView.swift */; };
-		0F703D2B2C5B550800C87D99 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F703D2A2C5B550800C87D99 /* View.swift */; };
-		0F703D2D2C5B551C00C87D99 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F703D2C2C5B551C00C87D99 /* Label.swift */; };
-		0F703D2F2C5B554300C87D99 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F703D2E2C5B554300C87D99 /* TextField.swift */; };
-		0F703D312C5B555E00C87D99 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F703D302C5B555E00C87D99 /* BackButton.swift */; };
-		0F703D332C5B557600C87D99 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F703D322C5B557600C87D99 /* Button.swift */; };
 		0F703D352C5B558C00C87D99 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F703D342C5B558C00C87D99 /* Extensions.swift */; };
 		0F703D3C2C5B70A200C87D99 /* DatabaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F703D3B2C5B70A200C87D99 /* DatabaseHandler.swift */; };
-		0FD38F642C5B922000F8DD33 /* FuelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD38F632C5B922000F8DD33 /* FuelViewController.swift */; };
+		0F7B99A62C61F16B00D505E2 /* CustomTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7B99A32C61F16B00D505E2 /* CustomTableCellView.swift */; };
+		0F7B99A92C61F17E00D505E2 /* VehicleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7B99A72C61F17E00D505E2 /* VehicleViewController.swift */; };
+		0F7B99B42C61F1C000D505E2 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7B99AB2C61F1C000D505E2 /* BackButton.swift */; };
+		0F7B99B52C61F1C000D505E2 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7B99AC2C61F1C000D505E2 /* Button.swift */; };
+		0F7B99B62C61F1C000D505E2 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7B99AD2C61F1C000D505E2 /* BackgroundImageView.swift */; };
+		0F7B99B72C61F1C000D505E2 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7B99AE2C61F1C000D505E2 /* Label.swift */; };
+		0F7B99B82C61F1C000D505E2 /* SystemImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7B99AF2C61F1C000D505E2 /* SystemImageButton.swift */; };
+		0F7B99B92C61F1C000D505E2 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7B99B02C61F1C000D505E2 /* TableView.swift */; };
+		0F7B99BA2C61F1C000D505E2 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7B99B12C61F1C000D505E2 /* TextField.swift */; };
+		0F7B99BB2C61F1C000D505E2 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7B99B22C61F1C000D505E2 /* View.swift */; };
+		0F7B99BD2C6209CA00D505E2 /* VehicleAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7B99BC2C6209CA00D505E2 /* VehicleAddViewController.swift */; };
+		0F7B99C32C634C7B00D505E2 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7B99C22C634C7A00D505E2 /* ImagePickerView.swift */; };
+		0F7B99FE2C64E40D00D505E2 /* VehicleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7B99FD2C64E40D00D505E2 /* VehicleDetailViewController.swift */; };
+		0F7B9A002C64EE9900D505E2 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7B99FF2C64EE9900D505E2 /* CollectionView.swift */; };
+		0F90C9662C69BF8900146E12 /* FuelLogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F90C9652C69BF8900146E12 /* FuelLogsViewController.swift */; };
+		0F90C9682C69BFCA00146E12 /* RefillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F90C9672C69BFCA00146E12 /* RefillViewController.swift */; };
+		0F90C96A2C69C00900146E12 /* DateTimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F90C9692C69C00900146E12 /* DateTimePicker.swift */; };
+		0F90C96E2C69D60B00146E12 /* ExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F90C96D2C69D60B00146E12 /* ExpenseViewController.swift */; };
 		0FD38F692C5B9DDE00F8DD33 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD38F652C5B9DDE00F8DD33 /* User+CoreDataClass.swift */; };
 		0FD38F6A2C5B9DDE00F8DD33 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD38F662C5B9DDE00F8DD33 /* User+CoreDataProperties.swift */; };
-		0FD38F6E2C5BAEA200F8DD33 /* SystemImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD38F6D2C5BAEA200F8DD33 /* SystemImageButton.swift */; };
+		0FFD65242C86E0F100960AF6 /* MaintenanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFD65232C86E0F100960AF6 /* MaintenanceViewController.swift */; };
+		0FFD65262C86E10500960AF6 /* MaintenanceLogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFD65252C86E10500960AF6 /* MaintenanceLogsViewController.swift */; };
+		0FFD65282C86E11F00960AF6 /* AddFuelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFD65272C86E11F00960AF6 /* AddFuelViewController.swift */; };
+		0FFD652A2C86E13F00960AF6 /* AddMaintenanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFD65292C86E13F00960AF6 /* AddMaintenanceViewController.swift */; };
+		0FFD65392C86E5E000960AF6 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFD65382C86E5E000960AF6 /* TextFieldView.swift */; };
+		0FFD65532C86F32200960AF6 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFD65522C86F32200960AF6 /* BaseViewController.swift */; };
+		0FFD655C2C896E1B00960AF6 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFD655B2C896E1B00960AF6 /* UserViewModel.swift */; };
+		0FFD655E2C89B2FB00960AF6 /* VehicleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFD655D2C89B2FB00960AF6 /* VehicleViewModel.swift */; };
+		0FFD65602C89B30E00960AF6 /* FuelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFD655F2C89B30E00960AF6 /* FuelViewModel.swift */; };
+		0FFD65622C89B31B00960AF6 /* ExpenseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFD65612C89B31B00960AF6 /* ExpenseViewModel.swift */; };
+		0FFD658E2C8AAADC00960AF6 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0FFD658D2C8AAADC00960AF6 /* KeychainSwift */; };
+		0FFD65A92C8AB22700960AF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FFD65A82C8AB22700960AF6 /* LaunchScreen.storyboard */; };
+		0FFD65AB2C8AB26100960AF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FFD65AA2C8AB26100960AF6 /* Main.storyboard */; };
+		0FFD65B32C8EA75800960AF6 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFD65B22C8EA75800960AF6 /* SplashViewController.swift */; };
+		0FFD65B52C8EA85200960AF6 /* VehicleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFD65B42C8EA85200960AF6 /* VehicleModel.swift */; };
+		0FFD65B72C8EA95600960AF6 /* FuelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFD65B62C8EA95600960AF6 /* FuelModel.swift */; };
+		0FFD65C82C900B3100960AF6 /* Vehicle+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFD65C62C900B3100960AF6 /* Vehicle+CoreDataClass.swift */; };
+		0FFD65C92C900B3100960AF6 /* Vehicle+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFD65C72C900B3100960AF6 /* Vehicle+CoreDataProperties.swift */; };
+		0FFD65CB2C905BC000960AF6 /* ExpenseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFD65CA2C905BC000960AF6 /* ExpenseModel.swift */; };
+		0FFD65CE2C97F27900960AF6 /* Fuel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFD65CC2C97F27900960AF6 /* Fuel+CoreDataClass.swift */; };
+		0FFD65CF2C97F27900960AF6 /* Fuel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFD65CD2C97F27900960AF6 /* Fuel+CoreDataProperties.swift */; };
+		0FFD65D22C97F2A900960AF6 /* Expense+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFD65D02C97F2A900960AF6 /* Expense+CoreDataClass.swift */; };
+		0FFD65D32C97F2A900960AF6 /* Expense+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFD65D12C97F2A900960AF6 /* Expense+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F3B7CF82C6F134F00C6F2E5 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		0F703D052C5B52D600C87D99 /* FuelManagementApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuelManagementApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F703D082C5B52D600C87D99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F703D0A2C5B52D600C87D99 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0F703D0C2C5B52D600C87D99 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
-		0F703D0F2C5B52D600C87D99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F703D122C5B52D600C87D99 /* FuelManagementApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FuelManagementApp.xcdatamodel; sourceTree = "<group>"; };
 		0F703D142C5B52D900C87D99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0F703D172C5B52D900C87D99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F703D192C5B52D900C87D99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F703D242C5B54A900C87D99 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0F703D262C5B54C700C87D99 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
-		0F703D282C5B54E300C87D99 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
-		0F703D2A2C5B550800C87D99 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
-		0F703D2C2C5B551C00C87D99 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
-		0F703D2E2C5B554300C87D99 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
-		0F703D302C5B555E00C87D99 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
-		0F703D322C5B557600C87D99 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		0F703D342C5B558C00C87D99 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		0F703D3B2C5B70A200C87D99 /* DatabaseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHandler.swift; sourceTree = "<group>"; };
-		0FD38F632C5B922000F8DD33 /* FuelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelViewController.swift; sourceTree = "<group>"; };
+		0F7B99A32C61F16B00D505E2 /* CustomTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableCellView.swift; sourceTree = "<group>"; };
+		0F7B99A72C61F17E00D505E2 /* VehicleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleViewController.swift; sourceTree = "<group>"; };
+		0F7B99AB2C61F1C000D505E2 /* BackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		0F7B99AC2C61F1C000D505E2 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		0F7B99AD2C61F1C000D505E2 /* BackgroundImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
+		0F7B99AE2C61F1C000D505E2 /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		0F7B99AF2C61F1C000D505E2 /* SystemImageButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemImageButton.swift; sourceTree = "<group>"; };
+		0F7B99B02C61F1C000D505E2 /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		0F7B99B12C61F1C000D505E2 /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		0F7B99B22C61F1C000D505E2 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		0F7B99BC2C6209CA00D505E2 /* VehicleAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleAddViewController.swift; sourceTree = "<group>"; };
+		0F7B99C22C634C7A00D505E2 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		0F7B99FD2C64E40D00D505E2 /* VehicleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleDetailViewController.swift; sourceTree = "<group>"; };
+		0F7B99FF2C64EE9900D505E2 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		0F90C9652C69BF8900146E12 /* FuelLogsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelLogsViewController.swift; sourceTree = "<group>"; };
+		0F90C9672C69BFCA00146E12 /* RefillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefillViewController.swift; sourceTree = "<group>"; };
+		0F90C9692C69C00900146E12 /* DateTimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimePicker.swift; sourceTree = "<group>"; };
+		0F90C96D2C69D60B00146E12 /* ExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseViewController.swift; sourceTree = "<group>"; };
 		0FD38F652C5B9DDE00F8DD33 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
 		0FD38F662C5B9DDE00F8DD33 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		0FD38F6D2C5BAEA200F8DD33 /* SystemImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemImageButton.swift; sourceTree = "<group>"; };
+		0FFD65232C86E0F100960AF6 /* MaintenanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintenanceViewController.swift; sourceTree = "<group>"; };
+		0FFD65252C86E10500960AF6 /* MaintenanceLogsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintenanceLogsViewController.swift; sourceTree = "<group>"; };
+		0FFD65272C86E11F00960AF6 /* AddFuelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFuelViewController.swift; sourceTree = "<group>"; };
+		0FFD65292C86E13F00960AF6 /* AddMaintenanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMaintenanceViewController.swift; sourceTree = "<group>"; };
+		0FFD65382C86E5E000960AF6 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		0FFD65522C86F32200960AF6 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		0FFD655B2C896E1B00960AF6 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		0FFD655D2C89B2FB00960AF6 /* VehicleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleViewModel.swift; sourceTree = "<group>"; };
+		0FFD655F2C89B30E00960AF6 /* FuelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelViewModel.swift; sourceTree = "<group>"; };
+		0FFD65612C89B31B00960AF6 /* ExpenseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseViewModel.swift; sourceTree = "<group>"; };
+		0FFD65A82C8AB22700960AF6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0FFD65AA2C8AB26100960AF6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0FFD65B22C8EA75800960AF6 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		0FFD65B42C8EA85200960AF6 /* VehicleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleModel.swift; sourceTree = "<group>"; };
+		0FFD65B62C8EA95600960AF6 /* FuelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelModel.swift; sourceTree = "<group>"; };
+		0FFD65C62C900B3100960AF6 /* Vehicle+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Vehicle+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0FFD65C72C900B3100960AF6 /* Vehicle+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Vehicle+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0FFD65CA2C905BC000960AF6 /* ExpenseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseModel.swift; sourceTree = "<group>"; };
+		0FFD65CC2C97F27900960AF6 /* Fuel+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fuel+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0FFD65CD2C97F27900960AF6 /* Fuel+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fuel+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0FFD65D02C97F2A900960AF6 /* Expense+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Expense+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0FFD65D12C97F2A900960AF6 /* Expense+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Expense+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FFD658E2C8AAADC00960AF6 /* KeychainSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,14 +149,15 @@
 			isa = PBXGroup;
 			children = (
 				0F703D1F2C5B52E000C87D99 /* Delegates */,
-				0F703D232C5B532D00C87D99 /* CoreDataModel */,
 				0F703D222C5B532300C87D99 /* AppExtension */,
-				0F703D212C5B530E00C87D99 /* ViewControllers */,
-				0F703D202C5B52F900C87D99 /* UIComponents */,
-				0F703D3A2C5B708500C87D99 /* CoreData */,
-				0F703D0E2C5B52D600C87D99 /* Main.storyboard */,
-				0F703D142C5B52D900C87D99 /* Assets.xcassets */,
-				0F703D162C5B52D900C87D99 /* LaunchScreen.storyboard */,
+				0F7B99B32C61F1C000D505E2 /* UIComponents */,
+				0FFD658F2C8AAC1D00960AF6 /* LoginSignup */,
+				0FFD65902C8AAC3500960AF6 /* Vehicle */,
+				0FFD65922C8AAC4B00960AF6 /* Fuel */,
+				0FFD65942C8AAC6F00960AF6 /* Expense */,
+				0F703D3A2C5B708500C87D99 /* CoreDataManager */,
+				0F7B99A42C61F16B00D505E2 /* CustomClasses */,
+				0FFD65A22C8AAF0900960AF6 /* Store */,
 				0F703D192C5B52D900C87D99 /* Info.plist */,
 			);
 			path = FuelManagementApp;
@@ -109,31 +172,6 @@
 			path = Delegates;
 			sourceTree = "<group>";
 		};
-		0F703D202C5B52F900C87D99 /* UIComponents */ = {
-			isa = PBXGroup;
-			children = (
-				0F703D282C5B54E300C87D99 /* ImageView.swift */,
-				0F703D2A2C5B550800C87D99 /* View.swift */,
-				0F703D2E2C5B554300C87D99 /* TextField.swift */,
-				0F703D302C5B555E00C87D99 /* BackButton.swift */,
-				0F703D322C5B557600C87D99 /* Button.swift */,
-				0FD38F6D2C5BAEA200F8DD33 /* SystemImageButton.swift */,
-				0F703D2C2C5B551C00C87D99 /* Label.swift */,
-			);
-			path = UIComponents;
-			sourceTree = "<group>";
-		};
-		0F703D212C5B530E00C87D99 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				0F703D0C2C5B52D600C87D99 /* WelcomeViewController.swift */,
-				0F703D262C5B54C700C87D99 /* SignupViewController.swift */,
-				0F703D242C5B54A900C87D99 /* LoginViewController.swift */,
-				0FD38F632C5B922000F8DD33 /* FuelViewController.swift */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
 		0F703D222C5B532300C87D99 /* AppExtension */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,22 +180,204 @@
 			path = AppExtension;
 			sourceTree = "<group>";
 		};
-		0F703D232C5B532D00C87D99 /* CoreDataModel */ = {
-			isa = PBXGroup;
-			children = (
-				0FD38F652C5B9DDE00F8DD33 /* User+CoreDataClass.swift */,
-				0FD38F662C5B9DDE00F8DD33 /* User+CoreDataProperties.swift */,
-			);
-			path = CoreDataModel;
-			sourceTree = "<group>";
-		};
-		0F703D3A2C5B708500C87D99 /* CoreData */ = {
+		0F703D3A2C5B708500C87D99 /* CoreDataManager */ = {
 			isa = PBXGroup;
 			children = (
 				0F703D3B2C5B70A200C87D99 /* DatabaseHandler.swift */,
 				0F703D112C5B52D600C87D99 /* FuelManagementApp.xcdatamodeld */,
 			);
-			path = CoreData;
+			path = CoreDataManager;
+			sourceTree = "<group>";
+		};
+		0F7B99A42C61F16B00D505E2 /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				0F7B99A32C61F16B00D505E2 /* CustomTableCellView.swift */,
+			);
+			path = CustomClasses;
+			sourceTree = "<group>";
+		};
+		0F7B99B32C61F1C000D505E2 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				0FFD65382C86E5E000960AF6 /* TextFieldView.swift */,
+				0F7B99AB2C61F1C000D505E2 /* BackButton.swift */,
+				0F7B99AC2C61F1C000D505E2 /* Button.swift */,
+				0F7B99AD2C61F1C000D505E2 /* BackgroundImageView.swift */,
+				0F7B99C22C634C7A00D505E2 /* ImagePickerView.swift */,
+				0F7B99AE2C61F1C000D505E2 /* Label.swift */,
+				0F7B99AF2C61F1C000D505E2 /* SystemImageButton.swift */,
+				0F7B99B02C61F1C000D505E2 /* TableView.swift */,
+				0F7B99FF2C64EE9900D505E2 /* CollectionView.swift */,
+				0F90C9692C69C00900146E12 /* DateTimePicker.swift */,
+				0F7B99B12C61F1C000D505E2 /* TextField.swift */,
+				0F7B99B22C61F1C000D505E2 /* View.swift */,
+				0F3B7CF82C6F134F00C6F2E5 /* GradientView.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		0FFD658F2C8AAC1D00960AF6 /* LoginSignup */ = {
+			isa = PBXGroup;
+			children = (
+				0FFD65982C8AACC400960AF6 /* Model */,
+				0FFD65972C8AACB700960AF6 /* ViewModel */,
+				0FFD65952C8AACAA00960AF6 /* View */,
+			);
+			path = LoginSignup;
+			sourceTree = "<group>";
+		};
+		0FFD65902C8AAC3500960AF6 /* Vehicle */ = {
+			isa = PBXGroup;
+			children = (
+				0FFD659E2C8AAD0D00960AF6 /* Model */,
+				0FFD659D2C8AAD0100960AF6 /* ViewModel */,
+				0FFD659C2C8AACFB00960AF6 /* View */,
+			);
+			path = Vehicle;
+			sourceTree = "<group>";
+		};
+		0FFD65922C8AAC4B00960AF6 /* Fuel */ = {
+			isa = PBXGroup;
+			children = (
+				0FFD65A12C8AAD3100960AF6 /* Model */,
+				0FFD65A02C8AAD2400960AF6 /* ViewModel */,
+				0FFD659F2C8AAD1D00960AF6 /* View */,
+			);
+			path = Fuel;
+			sourceTree = "<group>";
+		};
+		0FFD65942C8AAC6F00960AF6 /* Expense */ = {
+			isa = PBXGroup;
+			children = (
+				0FFD659B2C8AACF300960AF6 /* Model */,
+				0FFD659A2C8AACE300960AF6 /* ViewModel */,
+				0FFD65992C8AACDA00960AF6 /* View */,
+			);
+			path = Expense;
+			sourceTree = "<group>";
+		};
+		0FFD65952C8AACAA00960AF6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0FFD65522C86F32200960AF6 /* BaseViewController.swift */,
+				0FFD65B22C8EA75800960AF6 /* SplashViewController.swift */,
+				0F703D242C5B54A900C87D99 /* LoginViewController.swift */,
+				0F703D262C5B54C700C87D99 /* SignupViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0FFD65972C8AACB700960AF6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0FFD655B2C896E1B00960AF6 /* UserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0FFD65982C8AACC400960AF6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0FD38F652C5B9DDE00F8DD33 /* User+CoreDataClass.swift */,
+				0FD38F662C5B9DDE00F8DD33 /* User+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0FFD65992C8AACDA00960AF6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0FFD65252C86E10500960AF6 /* MaintenanceLogsViewController.swift */,
+				0FFD65292C86E13F00960AF6 /* AddMaintenanceViewController.swift */,
+				0FFD65232C86E0F100960AF6 /* MaintenanceViewController.swift */,
+				0F90C96D2C69D60B00146E12 /* ExpenseViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0FFD659A2C8AACE300960AF6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0FFD65612C89B31B00960AF6 /* ExpenseViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0FFD659B2C8AACF300960AF6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0FFD65D02C97F2A900960AF6 /* Expense+CoreDataClass.swift */,
+				0FFD65D12C97F2A900960AF6 /* Expense+CoreDataProperties.swift */,
+				0FFD65CA2C905BC000960AF6 /* ExpenseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0FFD659C2C8AACFB00960AF6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F7B99A72C61F17E00D505E2 /* VehicleViewController.swift */,
+				0F7B99BC2C6209CA00D505E2 /* VehicleAddViewController.swift */,
+				0F7B99FD2C64E40D00D505E2 /* VehicleDetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0FFD659D2C8AAD0100960AF6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0FFD655D2C89B2FB00960AF6 /* VehicleViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0FFD659E2C8AAD0D00960AF6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0FFD65C62C900B3100960AF6 /* Vehicle+CoreDataClass.swift */,
+				0FFD65C72C900B3100960AF6 /* Vehicle+CoreDataProperties.swift */,
+				0FFD65B42C8EA85200960AF6 /* VehicleModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0FFD659F2C8AAD1D00960AF6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F90C9652C69BF8900146E12 /* FuelLogsViewController.swift */,
+				0FFD65272C86E11F00960AF6 /* AddFuelViewController.swift */,
+				0F90C9672C69BFCA00146E12 /* RefillViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0FFD65A02C8AAD2400960AF6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0FFD655F2C89B30E00960AF6 /* FuelViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0FFD65A12C8AAD3100960AF6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0FFD65CC2C97F27900960AF6 /* Fuel+CoreDataClass.swift */,
+				0FFD65CD2C97F27900960AF6 /* Fuel+CoreDataProperties.swift */,
+				0FFD65B62C8EA95600960AF6 /* FuelModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0FFD65A22C8AAF0900960AF6 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				0F703D142C5B52D900C87D99 /* Assets.xcassets */,
+				0FFD65A82C8AB22700960AF6 /* LaunchScreen.storyboard */,
+				0FFD65AA2C8AB26100960AF6 /* Main.storyboard */,
+			);
+			path = Store;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +396,9 @@
 			dependencies = (
 			);
 			name = FuelManagementApp;
+			packageProductDependencies = (
+				0FFD658D2C8AAADC00960AF6 /* KeychainSwift */,
+			);
 			productName = FuelManagementApp;
 			productReference = 0F703D052C5B52D600C87D99 /* FuelManagementApp.app */;
 			productType = "com.apple.product-type.application";
@@ -192,6 +415,7 @@
 				TargetAttributes = {
 					0F703D042C5B52D600C87D99 = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 					};
 				};
 			};
@@ -204,6 +428,9 @@
 				Base,
 			);
 			mainGroup = 0F703CFC2C5B52D600C87D99;
+			packageReferences = (
+				0FFD658C2C8AAADC00960AF6 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+			);
 			productRefGroup = 0F703D062C5B52D600C87D99 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -218,9 +445,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FFD65AB2C8AB26100960AF6 /* Main.storyboard in Resources */,
 				0F703D152C5B52D900C87D99 /* Assets.xcassets in Resources */,
-				0F703D182C5B52D900C87D99 /* Base in Resources */,
-				0F703D102C5B52D600C87D99 /* Base in Resources */,
+				0FFD65A92C8AB22700960AF6 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,47 +458,58 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F703D2B2C5B550800C87D99 /* View.swift in Sources */,
+				0F7B99A62C61F16B00D505E2 /* CustomTableCellView.swift in Sources */,
+				0F7B99BD2C6209CA00D505E2 /* VehicleAddViewController.swift in Sources */,
+				0F90C9662C69BF8900146E12 /* FuelLogsViewController.swift in Sources */,
+				0FFD655E2C89B2FB00960AF6 /* VehicleViewModel.swift in Sources */,
+				0F7B99B92C61F1C000D505E2 /* TableView.swift in Sources */,
+				0F90C96E2C69D60B00146E12 /* ExpenseViewController.swift in Sources */,
+				0FFD655C2C896E1B00960AF6 /* UserViewModel.swift in Sources */,
+				0F7B99B82C61F1C000D505E2 /* SystemImageButton.swift in Sources */,
+				0FFD652A2C86E13F00960AF6 /* AddMaintenanceViewController.swift in Sources */,
+				0F7B99BA2C61F1C000D505E2 /* TextField.swift in Sources */,
+				0FFD65282C86E11F00960AF6 /* AddFuelViewController.swift in Sources */,
+				0FFD65D22C97F2A900960AF6 /* Expense+CoreDataClass.swift in Sources */,
+				0FFD65D32C97F2A900960AF6 /* Expense+CoreDataProperties.swift in Sources */,
+				0F7B99A92C61F17E00D505E2 /* VehicleViewController.swift in Sources */,
+				0FFD65B32C8EA75800960AF6 /* SplashViewController.swift in Sources */,
+				0F7B99B62C61F1C000D505E2 /* BackgroundImageView.swift in Sources */,
+				0F7B99C32C634C7B00D505E2 /* ImagePickerView.swift in Sources */,
+				0F7B99B52C61F1C000D505E2 /* Button.swift in Sources */,
 				0F703D3C2C5B70A200C87D99 /* DatabaseHandler.swift in Sources */,
 				0F703D272C5B54C700C87D99 /* SignupViewController.swift in Sources */,
-				0F703D312C5B555E00C87D99 /* BackButton.swift in Sources */,
+				0FFD65B52C8EA85200960AF6 /* VehicleModel.swift in Sources */,
+				0FFD65392C86E5E000960AF6 /* TextFieldView.swift in Sources */,
+				0FFD65B72C8EA95600960AF6 /* FuelModel.swift in Sources */,
+				0F90C96A2C69C00900146E12 /* DateTimePicker.swift in Sources */,
+				0F3B7CF92C6F134F00C6F2E5 /* GradientView.swift in Sources */,
 				0F703D132C5B52D600C87D99 /* FuelManagementApp.xcdatamodeld in Sources */,
-				0FD38F642C5B922000F8DD33 /* FuelViewController.swift in Sources */,
-				0F703D2F2C5B554300C87D99 /* TextField.swift in Sources */,
-				0F703D0D2C5B52D600C87D99 /* WelcomeViewController.swift in Sources */,
+				0FFD65532C86F32200960AF6 /* BaseViewController.swift in Sources */,
+				0FFD65262C86E10500960AF6 /* MaintenanceLogsViewController.swift in Sources */,
 				0FD38F692C5B9DDE00F8DD33 /* User+CoreDataClass.swift in Sources */,
+				0F90C9682C69BFCA00146E12 /* RefillViewController.swift in Sources */,
+				0FFD65622C89B31B00960AF6 /* ExpenseViewModel.swift in Sources */,
+				0FFD65242C86E0F100960AF6 /* MaintenanceViewController.swift in Sources */,
 				0FD38F6A2C5B9DDE00F8DD33 /* User+CoreDataProperties.swift in Sources */,
+				0FFD65602C89B30E00960AF6 /* FuelViewModel.swift in Sources */,
+				0FFD65CB2C905BC000960AF6 /* ExpenseModel.swift in Sources */,
+				0FFD65C82C900B3100960AF6 /* Vehicle+CoreDataClass.swift in Sources */,
+				0FFD65C92C900B3100960AF6 /* Vehicle+CoreDataProperties.swift in Sources */,
+				0F7B9A002C64EE9900D505E2 /* CollectionView.swift in Sources */,
 				0F703D092C5B52D600C87D99 /* AppDelegate.swift in Sources */,
-				0F703D332C5B557600C87D99 /* Button.swift in Sources */,
 				0F703D352C5B558C00C87D99 /* Extensions.swift in Sources */,
-				0F703D2D2C5B551C00C87D99 /* Label.swift in Sources */,
+				0FFD65CE2C97F27900960AF6 /* Fuel+CoreDataClass.swift in Sources */,
+				0FFD65CF2C97F27900960AF6 /* Fuel+CoreDataProperties.swift in Sources */,
+				0F7B99B72C61F1C000D505E2 /* Label.swift in Sources */,
 				0F703D252C5B54A900C87D99 /* LoginViewController.swift in Sources */,
-				0F703D292C5B54E300C87D99 /* ImageView.swift in Sources */,
-				0FD38F6E2C5BAEA200F8DD33 /* SystemImageButton.swift in Sources */,
 				0F703D0B2C5B52D600C87D99 /* SceneDelegate.swift in Sources */,
+				0F7B99BB2C61F1C000D505E2 /* View.swift in Sources */,
+				0F7B99FE2C64E40D00D505E2 /* VehicleDetailViewController.swift in Sources */,
+				0F7B99B42C61F1C000D505E2 /* BackButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		0F703D0E2C5B52D600C87D99 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0F703D0F2C5B52D600C87D99 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0F703D162C5B52D900C87D99 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0F703D172C5B52D900C87D99 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0F703D1A2C5B52D900C87D99 /* Debug */ = {
@@ -399,12 +637,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PX6PQ3S98G;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FuelManagementApp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Fuel;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please Allow Access";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please Allow Access";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please Allow Access";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -416,9 +658,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.o3interfaces.FuelManagementApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.o3interfaces.FuelManagementAp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -430,12 +673,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PX6PQ3S98G;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FuelManagementApp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Fuel;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please Allow Access";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please Allow Access";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please Allow Access";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -447,7 +694,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.o3interfaces.FuelManagementApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.o3interfaces.FuelManagementAp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -477,6 +724,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0FFD658C2C8AAADC00960AF6 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 24.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0FFD658D2C8AAADC00960AF6 /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0FFD658C2C8AAADC00960AF6 /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		0F703D112C5B52D600C87D99 /* FuelManagementApp.xcdatamodeld */ = {

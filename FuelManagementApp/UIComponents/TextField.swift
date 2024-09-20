@@ -8,7 +8,7 @@
 import UIKit
 
 class TextField: UITextField {
-    init(backgroundColor: UIColor = .systemGray4, cornerRadius: CGFloat = 22, placeholder: String = "", isSecure: Bool = false, keyboardReturn: UIReturnKeyType) {
+    init(backgroundColor: UIColor = .systemGray4, cornerRadius: CGFloat = 22, placeholder: String = "", isSecure: Bool = false, keyboardReturn: UIReturnKeyType = .default, keyboardType: UIKeyboardType = .default) {
         super.init(frame: .zero)
         self.translatesAutoresizingMaskIntoConstraints = false
         self.backgroundColor = backgroundColor
@@ -16,6 +16,7 @@ class TextField: UITextField {
         self.placeholder = placeholder
         self.isSecureTextEntry = isSecure
         self.returnKeyType = keyboardReturn
+        self.keyboardType = keyboardType
     }
     
     required init?(coder: NSCoder) {

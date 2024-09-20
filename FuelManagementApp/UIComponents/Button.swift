@@ -8,7 +8,7 @@
 import UIKit
 
 class Button: UIButton {
-    init(backgroundColor: UIColor = .white, cornerRadius: CGFloat = 22, setTitle: String = "", setTitleColor: UIColor = .black) {
+    init(backgroundColor: UIColor = .systemBlue.withAlphaComponent(0.7), cornerRadius: CGFloat = 22, setTitle: String, setTitleColor: UIColor = .white) {
         super.init(frame: .zero)
         self.translatesAutoresizingMaskIntoConstraints = false
         self.backgroundColor = backgroundColor
